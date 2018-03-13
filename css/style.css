@@ -205,13 +205,16 @@ li.selected {
 .message p {
     background-color: white;
     padding: 16px;
+    position:relative;
     }
 
 .message button {
     background-color: #CDDC39;
     color: black;
     text-transform: uppercase;
-    
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
 }
 
 /* #4 left align own #messages using #margins */
