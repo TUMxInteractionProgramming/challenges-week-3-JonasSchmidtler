@@ -168,6 +168,7 @@ li.selected {
 }
 
 
+
 /* MESSAGES */
 
 /* #4 select #specific #messages by class and re-assign element styles according to their #hierarchy in a nested way */
@@ -207,6 +208,8 @@ li.selected {
     background-color: #CDDC39;
     color: black;
     text-transform: uppercase;
+
+    
 }
 
 /* #4 left align own #messages using #margins */
@@ -214,3 +217,14 @@ li.selected {
 .message.own {
     margin-left: 17.5%;
 }
+
+/* chat-bar */
+#chat-bar { position: absolute;
+    background-color: white;
+    bottom: 16px;
+    width:100%;
+    display: flex;
+    justify-content: left;}
+
+#emojis-button {background-color: white;
+border:none;}
