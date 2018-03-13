@@ -28,11 +28,14 @@ strong {
 
 #channels {
     position: absolute;
+    left: 0px;
+    width: 40%;
 }
 
 #chat {
     position: absolute;
-    right: 0px
+    right: 0px;
+    width: 60%;
 }
 
 /* APP BAR */
