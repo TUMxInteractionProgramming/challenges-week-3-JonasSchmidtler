@@ -49,11 +49,11 @@ h1 img {
 
 h1 span {position: absolute;
 left: 72px;
-top: 14px;}
+top: 24px;}
 
 h1 a {position: absolute;
 left: 16px;
-top: 14px;}
+top: 24px;}
 
 /* APP BAR */
 
@@ -64,6 +64,7 @@ h1 {
     color: white;
     height: 64px;
     font-family: roboto, san-serif;
+    font-size: 20px;
 }
 
 
@@ -76,7 +77,8 @@ ul {
     background-color: white;
     /* #3 #channels #bullets removed */
     list-style-type: none;
-}
+    overflow:auto;
+    }
 
 li {
     /* #4 #channel #tile geometry */
@@ -86,7 +88,9 @@ li {
     font-size: 16px;
     /* #4 #channel tiles are separated by #lines */
     border-bottom: 1px solid #F5F5F5;
+    
 }
+
 
 /* #4 active #channel is #highlighted */
 
@@ -95,9 +99,26 @@ li.selected {
     border-left: 4px solid #3F51B5;
 }
 
-li img {
+#not-starred {
     /* #4 #middle vertical alignment of icons in the #channels list */
     vertical-align: middle;
+    position: absolute;
+    right: 40px;
+}
+
+#starred {
+    /* #4 #middle vertical alignment of icons in the #channels list */
+    vertical-align: middle;
+    position: absolute;
+    right: 40px;
+}
+
+
+#chevron {
+    /* #4 #middle vertical alignment of icons in the #channels list */
+    vertical-align: middle;
+    position: absolute;
+    right: 16px;
 }
 
 /* TAB BAR */
