@@ -8,7 +8,7 @@
     /* #4 use #roboto #font */
     font-family: 'Roboto', 'Arial', sans-serif;
 
-     /* #4 #sweat take care of #spacing between various elements */
+    /* #4 #sweat take care of #spacing between various elements */
     margin: 0;
     padding: 0;
 }
@@ -18,15 +18,27 @@ body {
 }
 
 /* #4 # sweat #uppercase buttons and w3w locations */
-button, strong {
+
+button,
+strong {
     text-transform: uppercase;
 }
 
+/* layout */
 
+#channels {
+    position: absolute;
+}
+
+#chat {
+    position: absolute;
+    right: 0px
+}
 
 /* APP BAR */
 
 /* #4 #sweat address both #app-bar s */
+
 h1 {
     background-color: #3F51B5;
     color: white;
@@ -36,6 +48,7 @@ h1 {
 /* CHANNELS LIST */
 
 /* #4 #sweat #channels */
+
 ul {
     /* #3 #channels #list modifies h2 to ul */
     background-color: white;
@@ -54,6 +67,7 @@ li {
 }
 
 /* #4 active #channel is #highlighted */
+
 li.selected {
     color: #3F51B5;
     border-left: 4px solid #3F51B5;
@@ -67,6 +81,7 @@ li img {
 /* TAB BAR */
 
 /* #4 #sweat #tab-bar */
+
 #tab-bar {
     /* #3 #tab-bar #container should be white */
     background-color: white;
@@ -75,6 +90,7 @@ li img {
 }
 
 /* #4 add styles to #tab-bar #buttons */
+
 #tab-bar button {
     background-color: white;
     border: none;
@@ -87,12 +103,14 @@ li img {
 }
 
 /* #4 #tab-bar buttons do have a #line-break and images are centered due to the left&right auto margin */
+
 #tab-bar button img {
     display: block;
     margin: 0 auto 4px auto;
 }
 
 /* #4 the selected #tab-bar #button is #highlighted */
+
 #tab-bar button.selected {
     color: #3F51B5;
     border-bottom: 4px solid #3F51B5;
@@ -100,7 +118,9 @@ li img {
 
 
 /* MESSAGES */
+
 /* #4 select #specific #messages by class and re-assign element styles according to their #hierarchy in a nested way */
+
 .message {
     /* #3 #chat #width*/
     width: 80%;
@@ -139,7 +159,7 @@ li img {
 }
 
 /* #4 left align own #messages using #margins */
+
 .message.own {
     margin-left: 17.5%;
 }
-
