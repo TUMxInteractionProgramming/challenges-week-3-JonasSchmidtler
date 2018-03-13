@@ -187,6 +187,9 @@ li.selected {
 
 .message h3 {
     font-size: medium;
+    display:flex;
+    justify-content: space-between;
+    
 }
 
 .message h3 em {
@@ -202,13 +205,12 @@ li.selected {
 .message p {
     background-color: white;
     padding: 16px;
-}
+    }
 
 .message button {
     background-color: #CDDC39;
     color: black;
     text-transform: uppercase;
-
     
 }
 
