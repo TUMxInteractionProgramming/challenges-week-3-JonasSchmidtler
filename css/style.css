@@ -33,6 +33,7 @@ strong {
     height: 100%;
 }
 
+
 #chat {
     position: absolute;
     right: 0px;
@@ -40,7 +41,19 @@ strong {
     height: 100%;
 }
 
+h1 img {
+    position: absolute;
+    left: 16px;
+    top: 8px;
+}
 
+h1 span {position: absolute;
+left: 72px;
+top: 14px;}
+
+h1 a {position: absolute;
+left: 16px;
+top: 14px;}
 
 /* APP BAR */
 
@@ -50,8 +63,8 @@ h1 {
     background-color: #3F51B5;
     color: white;
     height: 64px;
-    padding: 20px 0px 20px 72px
-    }
+    font-family: roboto, san-serif;
+}
 
 
 /* CHANNELS LIST */
