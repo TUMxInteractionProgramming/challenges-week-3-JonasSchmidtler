@@ -10,6 +10,7 @@
     <!-- #4 #sweat out the styles by creating an #external css -->
     <link rel="stylesheet" href="css/style.css" />
 
+    <script src="js/script.js"></script>
 
 </head>
 
@@ -24,7 +25,7 @@
 
         <!-- #3 #channels #list is much better, than headlines or paragraphs... -->
         <ul>
-            <li>#Yummy
+            <li onclick="switchChannel(channelName)">#Yummy
                 <!-- #3 #channels #favorite this is not starred -->
                 <img id="not-starred" src="http://ip.lfe.mw.tum.de/sections/star-o.png" alt="not starred">
                 <img id="chevron" src="http://ip.lfe.mw.tum.de/sections/chevron-right.png" alt="chevron right">
@@ -79,7 +80,7 @@
     <!-- #4 #one #page -->
     <div id="chat">
         <h1>
-            <a> #SevenContinents
+            <a document.getElementById('channels').innerHTML=channelName;> #SevenContinents
         <small>by
             <strong>cheeses.yard.applies</strong>
         </small> </span>
