@@ -28,30 +28,30 @@
 
         <!-- #3 #channels #list is much better, than headlines or paragraphs... -->
         <ul>
-            <li onclick="switchChannel('#Yummy'); appBarStar();">#Yummy
+            <li class="selected" onclick="switchChannel('#Yummy');">#Yummy
                 <!-- #3 #channels #favorite this is not starred -->
                 <img id="starred" src="http://ip.lfe.mw.tum.de/sections/star.png" alt="starred">
                 <img id="chevron" src="http://ip.lfe.mw.tum.de/sections/chevron-right.png" alt="chevron right">
             </li>
 
             <!-- #4 #channel is #highlighted -->
-            <li onclick="switchChannel('#SevenContinents'); appBarStar()">
+            <li class="selected" onclick="switchChannel('#SevenContinents');">
                 #SevenContinents
                 <!-- #3 #channels #favorite this is starred -->
                 <img id="starred" src="http://ip.lfe.mw.tum.de/sections/star.png" alt="starred">
                 <img id="chevron" src="http://ip.lfe.mw.tum.de/sections/chevron-right.png" alt="chevron right">
             </li>
-            <li onclick="switchChannel('#KillerApp'); appBarStar()">#KillerApp
+            <li class="selected" onclick="switchChannel('#KillerApp');">#KillerApp
                 <!-- #3 #channels #favorite this is not starred -->
                 <img id="starred" src="http://ip.lfe.mw.tum.de/sections/star.png" alt="starred">
                 <img id="chevron" src="http://ip.lfe.mw.tum.de/sections/chevron-right.png" alt="chevron right">
             </li>
-            <li onclick="switchChannel('#FirsPersonMars'); appBarStar()">#FirstPersonOnMars
+            <li class="selected" onclick="switchChannel('#FirsPersonMars');">#FirstPersonOnMars
                 <!-- #3 #channels #favorite this is starred -->
                 <img id="starred" src="http://ip.lfe.mw.tum.de/sections/star.png" alt="starred">
                 <img id="chevron" src="http://ip.lfe.mw.tum.de/sections/chevron-right.png" alt="chevron right">
             </li>
-            <li onclick="switchChannel('#Octoberfest'); appBarStar()">#Octoberfest
+            <li class="selected" onclick="switchChannel('#Octoberfest');">#Octoberfest
                 <!-- #3 #channels #favorite this is not starred -->
                 <img id="starred" src="http://ip.lfe.mw.tum.de/sections/star.png" alt="starred">
                 <img id="chevron" src="http://ip.lfe.mw.tum.de/sections/chevron-right.png" alt="chevron right">
@@ -62,17 +62,17 @@
         <!-- #4 #sweat #tab-bar -->
         <div id="tab-bar">
             <!-- #4 #tab-bar selected channel should be #highlighted -->
-            <button class="selected">
+            <button class="selected" id="lightbulb-o" onclick="selectTab('#lightbulb-o')">
             <!-- #3 #tab-bar #images -->
             <img src="http://ip.lfe.mw.tum.de/sections/lightbulb-o.png" alt="Bulb">
             New
         </button>
-            <button>
+            <button class="selected" id="fire" onclick="selectTab('#fire')">
             <!-- #3 #tab-bar #images -->
             <img src="http://ip.lfe.mw.tum.de/sections/fire.png" alt="Hot">
             Trending
         </button>
-            <button>
+            <button class="selected" id="star" onclick="selectTab('#star')">
             <!-- #3 #tab-bar #images -->
             <img src="http://ip.lfe.mw.tum.de/sections/star.png" alt="Star">
             Favorites
