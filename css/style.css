@@ -52,12 +52,12 @@ h1 span {position: absolute;
 left: 72px;
 top: 24px;}
 
-h1 a {position: absolute;
+h1 a {position: relative;
 left: 16px;
 top: 24px;}
 
 h1 small {position: relative;
-left: 190px;
+left: 20px;
 top: 24px;}
 
 /* APP BAR */
