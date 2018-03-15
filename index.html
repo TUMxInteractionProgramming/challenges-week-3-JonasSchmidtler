@@ -28,30 +28,30 @@
 
         <!-- #3 #channels #list is much better, than headlines or paragraphs... -->
         <ul>
-            <li onclick="switchChannel('#Yummy'); appBarStar()">#Yummy
+            <li class="selected"  onclick="switchChannel('#Yummy'); appBarStar()">#Yummy
                 <!-- #3 #channels #favorite this is not starred -->
                 <img id="starred" src="http://ip.lfe.mw.tum.de/sections/star.png" alt="starred">
                 <img id="chevron" src="http://ip.lfe.mw.tum.de/sections/chevron-right.png" alt="chevron right">
             </li>
 
             <!-- #4 #channel is #highlighted -->
-            <li class="selected" onclick="switchChannel('#SevenContinents')">
+            <li onclick="switchChannel('#SevenContinents'); appBarStar()">
                 #SevenContinents
                 <!-- #3 #channels #favorite this is starred -->
                 <img id="starred" src="http://ip.lfe.mw.tum.de/sections/star.png" alt="starred">
                 <img id="chevron" src="http://ip.lfe.mw.tum.de/sections/chevron-right.png" alt="chevron right">
             </li>
-            <li onclick="switchChannel('#KillerApp')">#KillerApp
+            <li onclick="switchChannel('#KillerApp'); appBarStar()">#KillerApp
                 <!-- #3 #channels #favorite this is not starred -->
                 <img id="starred" src="http://ip.lfe.mw.tum.de/sections/star.png" alt="starred">
                 <img id="chevron" src="http://ip.lfe.mw.tum.de/sections/chevron-right.png" alt="chevron right">
             </li>
-            <li onclick="switchChannel('#FirsPersonMars')">#FirstPersonOnMars
+            <li onclick="switchChannel('#FirsPersonMars'); appBarStar()">#FirstPersonOnMars
                 <!-- #3 #channels #favorite this is starred -->
                 <img id="starred" src="http://ip.lfe.mw.tum.de/sections/star.png" alt="starred">
                 <img id="chevron" src="http://ip.lfe.mw.tum.de/sections/chevron-right.png" alt="chevron right">
             </li>
-            <li onclick="switchChannel('#Octoberfest')">#Octoberfest
+            <li onclick="switchChannel('#Octoberfest'); appBarStar()">#Octoberfest
                 <!-- #3 #channels #favorite this is not starred -->
                 <img id="starred" src="http://ip.lfe.mw.tum.de/sections/star.png" alt="starred">
                 <img id="chevron" src="http://ip.lfe.mw.tum.de/sections/chevron-right.png" alt="chevron right">
@@ -174,10 +174,10 @@
 
     </div>
     <div id="chat-bar">
-        <button id="emojis-button">
+        <button id="emojis-button" onclick="$('#emojis').toggle();">
             <img  src="http://ip.lfe.mw.tum.de/sections/smile-o.png">
         </button>
-        <div id="emojis">&#x1F601; &#x1F602; &#x1F603; &#x1F604; &#x1F605;
+        <div id="emojis" style="display: none;">&#x1F601; &#x1F602; &#x1F603; &#x1F604; &#x1F605;
         </div>
     </div>
 
