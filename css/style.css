@@ -56,6 +56,10 @@ h1 a {position: absolute;
 left: 16px;
 top: 24px;}
 
+h1 small {position: relative;
+left: 190px;
+top: 24px;}
+
 /* APP BAR */
 
 /* #4 #sweat address both #app-bar s */
@@ -66,7 +70,7 @@ h1 {
     height: 64px;
     font-family: roboto, san-serif;
     font-size: 20px;
-}
+    }
 
 
 /* CHANNELS LIST */

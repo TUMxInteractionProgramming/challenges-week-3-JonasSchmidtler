@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>chatter|app</title>
@@ -25,7 +26,7 @@
 
         <!-- #3 #channels #list is much better, than headlines or paragraphs... -->
         <ul>
-            <li onclick="switchChannel('#Yummy')">#Yummy
+            <li onclick="switchChannel('#Yummy');">#Yummy
                 <!-- #3 #channels #favorite this is not starred -->
                 <img id="not-starred" src="http://ip.lfe.mw.tum.de/sections/star-o.png" alt="not starred">
                 <img id="chevron" src="http://ip.lfe.mw.tum.de/sections/chevron-right.png" alt="chevron right">
@@ -80,10 +81,10 @@
     <!-- #4 #one #page -->
     <div id="chat">
         <h1>
-            <a onclick="document.getElementById('wtf').innerHTML=channelName;"> #SevenContinents
+            <a id="chat-name"> #SevenContinents </a>
         <small>by
             <strong>cheeses.yard.applies</strong>
-        </small> </span>
+        </small> 
     </h1>
 
     <!-- #3 #chat #container -->
@@ -98,7 +99,7 @@
             <em>15 min. left</em>
             </h3>
             <p>What's the place you folks call home? <button>+5 min.</button></p>
-            
+
     </div>
 
     <!-- #3 #chat #container -->
@@ -112,7 +113,7 @@
             <em>4 min. left</em>
         </h3>
         <p>BRISBANE! Hang loose! <button>+5 min.</button></p>
-        
+
     </div>
 
     <!-- #3 #chat #container -->
@@ -126,7 +127,7 @@
             <em>12 min. left</em>
         </h3>
         <p>The big apple. <button>+5 min.</button></p>
-        
+
     </div>
 
     <!-- #3 #chat #container -->
@@ -140,7 +141,7 @@
             <em>7 min. left</em>
         </h3>
         <p>Eu sou um Cariocas. <button>+5 min.</button></p>
-        
+
     </div>
 
     <!-- #3 #chat #container -->
@@ -154,7 +155,7 @@
             <em>14 min. left</em>
         </h3>
         <p>Greetings from the western cape! <button>+5 min.</button> </p>
-        
+
     </div>
 
     <!-- #3 #chat #container -->
@@ -168,7 +169,7 @@
             <em>15 min. left</em>
         </h3>
         <p>北京 <button>+5 min.</button></p>
-        
+
     </div>
     <div id="chat-bar">
         <button id="emojis-button">
@@ -181,4 +182,5 @@
     </div>
 
 </body>
+
 </html>
