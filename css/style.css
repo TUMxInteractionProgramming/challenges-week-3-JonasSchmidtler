@@ -116,6 +116,7 @@ li.selected {
     vertical-align: middle;
     position: absolute;
     right: 40px;
+    z-index: 40;
 }
 
 
