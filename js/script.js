@@ -1,6 +1,7 @@
 console.log('app is live')
 
 function switchChannel(channelName) {
+    console.log('remove stars my ass')
     $('.selected').removeClass();
     console.log('tuning into channel', channelName);
     document.getElementById('chat-name').innerHTML=channelName;
