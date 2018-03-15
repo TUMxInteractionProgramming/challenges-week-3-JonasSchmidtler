@@ -11,7 +11,9 @@
     <!-- #4 #sweat out the styles by creating an #external css -->
     <link rel="stylesheet" href="css/style.css" />
 
-    <script src="js/script.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
 </head>
 
@@ -26,9 +28,9 @@
 
         <!-- #3 #channels #list is much better, than headlines or paragraphs... -->
         <ul>
-            <li onclick="switchChannel('#Yummy');">#Yummy
+            <li onclick="switchChannel('#Yummy'); appBarStar()">#Yummy
                 <!-- #3 #channels #favorite this is not starred -->
-                <img id="not-starred" src="http://ip.lfe.mw.tum.de/sections/star-o.png" alt="not starred">
+                <img id="starred" src="http://ip.lfe.mw.tum.de/sections/star.png" alt="starred">
                 <img id="chevron" src="http://ip.lfe.mw.tum.de/sections/chevron-right.png" alt="chevron right">
             </li>
 
@@ -41,7 +43,7 @@
             </li>
             <li onclick="switchChannel('#KillerApp')">#KillerApp
                 <!-- #3 #channels #favorite this is not starred -->
-                <img id="not-starred" src="http://ip.lfe.mw.tum.de/sections/star-o.png" alt="not starred">
+                <img id="starred" src="http://ip.lfe.mw.tum.de/sections/star.png" alt="starred">
                 <img id="chevron" src="http://ip.lfe.mw.tum.de/sections/chevron-right.png" alt="chevron right">
             </li>
             <li onclick="switchChannel('#FirsPersonMars')">#FirstPersonOnMars
@@ -51,7 +53,7 @@
             </li>
             <li onclick="switchChannel('#Octoberfest')">#Octoberfest
                 <!-- #3 #channels #favorite this is not starred -->
-                <img id="not-starred" src="http://ip.lfe.mw.tum.de/sections/star-o.png" alt="not starred">
+                <img id="starred" src="http://ip.lfe.mw.tum.de/sections/star.png" alt="starred">
                 <img id="chevron" src="http://ip.lfe.mw.tum.de/sections/chevron-right.png" alt="chevron right">
             </li>
         </ul>
